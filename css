@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+   color: black; 
+}
+ .btn{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left:40%;
+    background-color: rgb(0, 139, 104);
+    color: aliceblue;
+    border-radius: 10px;
+    position: static;
+}
+h1{
+   color: rgb(2, 43, 24);font-size: 3rem;
+   background-image: linear-gradient(rgb(197, 185, 118), green, lightgreen );
+   border-radius: 60px;
+   text-align: center;
+   opacity: 0.8;
+}
+form {
+    box-shadow: 0 6px 19px black;
+    max-width: 100%;
+    margin-top: 10px;
+    width: 600px;
+    height: 200%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.input {
+    border: none;
+    color: black;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(194, 240, 217);
+}
+.input::placeholder{
+    color: rgb(14, 70, 53);
+}
+.input:focus{
+    color: darkred;   
+}
+.todo{
+    background-color: white;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.todo li{
+    border-top: 1px solid rgb(124, 27, 31);
+    /* this is for the lines between th list */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: auto;
+}
+.completed {  
+    text-decoration: line-through; 
+    color: black;
+}
+small{
+    margin: 3rem;
+    text-align: center;
+     font-weight: bold;
+}
+ul span{
+    color: red;
+    position: static;
+    top:0;
+    right: 0;
+    text-align: center;
+}
